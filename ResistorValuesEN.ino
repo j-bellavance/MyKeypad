@@ -1,6 +1,6 @@
 /*  CREDITS
  *  ResistorValues : Example for the library MyKeypad
- *  Créé par Jacques Bellavance, june 25, 2016
+ *  Create by : Jacques Bellavance, june 25, 2016
  *  This code is public domain
  */ 
 
@@ -22,14 +22,14 @@
  * The selected resistors are taken in the E12 series with a tolerance of +- 5%
  * (see :http://www.positron-libre.com/cours/electronique/resistances/serie-resistance.php)
  * 
- * NOTE :
+ * NOTE:
  * The library is capable of dealing with a maximum of 16 switches.
  */
   
 /* METHODS
  * The contructor's arguments are :
- * - Argument1 : inputPin (The analog pin on the Arduino
- * - Argument2 : buttonCount (The number of switches of the setup
+ * - Argument1 : inputPin (The analog pin on the Arduino)
+ * - Argument2 : buttonCount (The number of switches of the setup)
  * 
  * The 'calculateResistorValues()' method can be called with or without the pullup resistor value
  * If the pullup value is ommited, 10 KOhms is used
@@ -39,7 +39,7 @@
  * The 'getRealPullup()' method will return the real pullup resistor value used for calculations
  */
 
-/* UTE
+/* NOTE:
  * In GLOBAL VARIABLES :
  * - change « switchCount » for the number of switches in the setup
  * - change « pullup » for the value that you intend to use
