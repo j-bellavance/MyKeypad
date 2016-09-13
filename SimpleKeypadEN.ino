@@ -1,6 +1,6 @@
 /*  CREDITS
  *  SimpleKeypad : Example for the MyKeypad 
- *  Créé par Jacques Bellavance, june 25, 2016
+ *  Created by : Jacques Bellavance, june 25, 2016
  *  This code is public domain
  */ 
 
@@ -24,7 +24,7 @@
  * boolean keyPressed()          retrns true if any switch is cloded
  * int getKey()                  Return the id af the closed switch, debounce of 50ms.
  * int getKey(debounceLimit)     Allows to specify the debounce duration (in milliseconds). 
- * int getKeyAndWaitForRelease() Same a getKey(), but waits until the switch is depressed before sending tehe switch's id
+ * int getKeyAndWaitForRelease() Same a getKey(), but waits until the switch is depressed before sending the switch's id
  */
 
 #include <MyKeypad.h>;
@@ -41,7 +41,7 @@ Serial.begin(9600);
 
 void loop() {
   if (keypad.keyPressed()) {
-    int key = keypad.getKeyAndWaitForRelease(); // ou : int key = keypad.getKey();
+    int key = keypad.getKeyAndWaitForRelease(); // or : int key = keypad.getKey();
     switch (key) {
       case 0: {
         Serial.println("Left");
