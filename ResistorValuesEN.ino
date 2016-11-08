@@ -7,7 +7,7 @@
 /*  CONNEXIONS
  *  MyKeypad allows us to use up to 16 switches 
  *  connected to an analog pin on the Arduino.
- *  +5V-----Rpullup-----+--------+-------+--- ... ---+-----A10
+ *  +5V-----Rpullup-----+--------+-------+--- ... ---+-----A0
  *                     1nF      SW0     SW1   ...   SWn
  *                     CAP      R0      R1    ...   Rn
  *  GND-----------------+--------+-------+--- ... ---+
