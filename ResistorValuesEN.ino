@@ -1,6 +1,6 @@
 /*  CREDITS
  *  ResistorValues : Example for the library MyKeypad
- *  Create by : Jacques Bellavance, june 25, 2016
+ *  Created by : Jacques Bellavance, june 25, 2016
  *  This code is public domain
  */ 
 
@@ -50,9 +50,9 @@
 #include <MyKeypad.h>
 
 //GLOBAL VARIABLES=======================================================
-int readPin = A10;        //Broche sur laquelle est branchée le montage
-int switchCount = 10;     //Nombre d'interrupteurs du montage
-double pullup = 10000.0;  //Valeur de la résistance de rappel (Pullup)
+int readPin = A0;         //The pin on which the switches are connected
+int switchCount = 10;     //Number of switches
+double pullup = 10000.0;  //Value of the pullup resistor
 //-----------------------------------------------------------------------
 
 MyKeypad test(readPin,switchCount); //L'objet du montage est nommé « test »
